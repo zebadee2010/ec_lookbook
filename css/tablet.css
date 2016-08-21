@@ -1,0 +1,57 @@
+
+@media screen and (min-width: 769px) {
+	.song_entry, 
+	.song_name {
+		font-size: 1em;
+		padding: 1%;
+		text-align: center;
+		width: 25%;
+	}
+	.selection, 
+	.selection option {
+		padding: 1px;
+		width: 60%;
+	}
+	#column1 {
+		clear: none;
+		float: left;
+		width: 50%;
+	}
+	#column2 {
+		clear: none;
+		float: left;
+		width: 50%;
+	}
+	#img_uploads {
+		clear: none;
+		float: left;
+		margin: 0 auto;
+		width: 50%;
+	}
+	#lower_add_buttons {
+		margin: 0 50px;
+		max-width: 75%;
+	}
+	#mp3_uploads {
+		clear: none;
+		float: right;
+		margin: 0 auto;
+		width: 50%;
+	}
+	#song_thumbs li {
+		float: left;
+		height: auto;
+		margin: 2%;
+		max-width: 29.3%;
+		min-width: 29.3%;
+	}
+	#song_thumbs li:nth-of-type(3n+1) {
+		clear: both;
+	}
+	#preview img {
+		box-sizing: border-box;
+		float: left;
+		margin: 10px;
+		width: 50%;
+	}
+}

@@ -1,0 +1,361 @@
+/*********************************************
+                Main Elements
+*********************************************/
+
+
+body{
+    margin:0 auto;
+    padding: 0;
+    min-height: 90%;
+	font-family: Lato, Ubuntu, sans-serif;
+    font-size: .9em;
+	font-weight: 300;
+}
+
+label,input,select{
+	font-family: Lato, Ubuntu, sans-serif;
+    font-size: .9em;
+	font-weight: 300;
+}
+
+header{
+    background-color:#eee;  /*#7697b3*/
+    height: 70px;
+    width:100%;
+    position:sticky;
+    top: 0;
+    z-index: 5;
+	box-sizing: border-box;
+
+}
+
+nav{
+    background-color:#d67d2d ; /*#3374ab*/
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    left: 0;
+    position: sticky;
+    top: 70px;
+    z-index: 4;
+	box-sizing: border-box;
+
+}
+
+.wrapper{
+    background-color: #676767;
+    height:90%;
+    color: white;
+    padding: 3%;
+    text-align: center;
+    overflow:auto;
+	position: relative;
+	float: left;
+	width: 100%;
+    z-index: 3;
+	box-sizing: border-box;
+
+}
+
+strong{
+	font-weight: 400;
+}
+
+#column1{
+    width: 100%;
+    float: left;    
+}
+
+#column2{
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+    clear: left;
+}
+
+
+
+
+/*********************************************
+                 Header / Nav
+*********************************************/
+
+
+
+header img {
+    width:auto;
+    max-height:83% ;
+    display: block;
+    margin: 0 auto;
+    padding: 9 0 9 0;
+}
+    
+nav ul li{
+    display: inline-block;
+    margin: 5 0 5 0;
+    
+}
+
+nav a, nav a:visited{
+    color: white;
+    font-size: 1.1em;
+    padding: 5px;
+}
+
+
+
+/*********************************************
+                 Form Styles (add.php)
+*********************************************/
+
+
+.song_entry{
+    width:25%;
+    padding: 1%;
+    margin: 5px 1px 5px 1px;
+    border:0;
+    text-align: center;
+    font-size: 1em;
+    display: inline;
+}
+
+.song_entry_color{
+    text-align: left;
+    padding: 1%;
+    margin: 5 0 5 0;
+    border:0;
+    font-size: 1em;
+}
+
+.selection, .selection option{
+    width: 75%;
+    padding: 1px;
+    font-size: 1em;
+    //-webkit-box-shadow: 0 0 0 transparent;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    
+}
+
+.song_title{
+    width:75%;
+    padding: 1%;
+    margin: 5px 1px 5px 1px;
+    border:0;
+    text-align: center;
+    font-size: 1em;
+    display: inline;
+}
+
+#uploads{
+    text-align: left;
+    width: 75%;
+    margin: 0 auto;
+    font-weight:bolder;
+    line-height: 2;
+    clear: both;
+}
+
+#mp3_uploads, #img_uploads{
+	
+	margin-bottom: 10px;
+}
+
+#lower_add_buttons{
+	margin-top: 20px;
+}
+
+
+/*********************************************
+        Thumbnail Styles (current.php)
+*********************************************/
+
+#song_thumbs{
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+#song_thumbs li {
+    max-width: 45%;
+	min-width:45%;
+    height: auto;
+    margin: 2.5%; 
+    float: left;
+    
+}
+
+#song_thumbs li a img{
+    max-width: 100%;    
+}
+
+#song_thumbs li a #thumb{
+    max-width: 100%;
+    background-color: rgba(50,50,50,.7);
+	padding: 5px;
+    color: white;
+    height: 20px;
+    font-size: .95em;
+	position: relative;
+	bottom: 19;
+	left: 0;
+	box-sizing: border-box;
+	
+}
+
+
+
+/*********************************************
+     (View.php) (default:mobile) Styles
+*********************************************/
+
+p#title {
+	font-size: 20px;
+	padding: 2%;
+	margin: 0 auto;
+}
+
+#song_view img{
+	width:50%;
+	float: left;
+	margin: 10px;
+	box-sizing: border-box;
+}
+
+p#description{
+	font-size: 1.4em;
+	text-align: left;
+	width: 90%;
+	margin: 0 auto;
+}
+
+
+
+
+
+
+
+/*********************************************
+                 Tablet Styles
+*********************************************/
+
+
+
+@media screen and (min-width:769px){
+    .wrapper{
+        font-size: .8em;
+    }
+    
+    .song_entry, .song_name{
+        font-size: 1em;
+        text-align: center;
+        padding: 1%;
+        width: 25%;
+    }
+	
+
+    
+    .selection, .selection option{
+        width: 60%;
+        padding: 1px;
+    }
+
+    #song_thumbs li{
+        max-width: 29.3%;
+		min-width:29.3%;
+        margin: 2%;
+        height: auto;
+        float: left;
+    }
+    
+    #song_thumbs li:nth-of-type(3n+1){
+        clear: both;
+    }   
+	
+	#column1{
+		clear: none;
+		width: 50%;
+		float: left;
+	}
+	
+	#column2{
+		clear:none;
+		width: 50%;
+		float: left;
+	}
+	
+	#img_uploads{
+		clear: none;
+		width: 50%;
+		float: left;
+		margin: 0 auto;
+	}
+	
+	#mp3_uploads{
+		clear:none;
+		width: 50%;
+		float: right;
+		margin: 0 auto;
+	}
+	
+	#lower_add_buttons{
+		max-width: 75%;
+		margin: 0 50px;;
+	}
+	
+
+}
+
+
+/*********************************************
+                 Desktop Styles
+*********************************************/
+
+
+
+@media screen and (min-width:1025px){
+    header{
+        height: 80px;
+    }
+    
+    nav{
+        top: 80px;
+        text-align: right;
+        padding: 5px 25px 5px 0;
+    }
+    
+    nav a:hover{
+        color:#ddd;
+    }
+	#thumb{
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+	}
+    
+    #song_thumbs li{
+        max-width: 21%;
+		min-width:21%;
+        margin: 2%;
+        float: left;	
+    }
+    
+    header img{
+        text-align: left;
+        margin-left: 25px;
+        margin-right: 25px;
+        padding: 10px 0 10px 0;
+    }
+    
+    #song_thumbs li:nth-of-type(3n+1){
+        clear: none;
+    }
+    
+    #song_thumbs li:nth-of-type(4n+1){
+        clear: both; 
+    }
+	#song_view img{
+	width:40%;
+}
+
+}

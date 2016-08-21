@@ -1,0 +1,13 @@
+.navbar .navbar-fixed-top .navbar-default{
+	height: 10px;
+}
+
+.navbar .navbar-default .navbar-fixed-top{
+	background-color: blue;
+}
+
+.container{
+	height: 100%;
+	background-color: red;
+margin-top: 2.5%;
+}

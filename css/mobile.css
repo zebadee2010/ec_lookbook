@@ -1,0 +1,168 @@
+body
+{
+	background-color: #676767;
+	box-sizing: border-box;
+	color: white;
+	text-align: center;
+    width: 100%;
+}
+body, 
+input, 
+label, 
+select {
+    font-family: Lato,sans-serif;
+    font-size: 0.8em;
+    font-weight: 300;
+}
+header {
+    background-color: #fff;
+	box-sizing: padding-box;
+    height: 70px;
+	padding: 5 0 0 0;
+    position: relative;
+    top: 0;
+    width: 100%;
+}
+header img {
+    display: block;
+    margin: 0 auto;
+    max-height: 80%;
+    width: auto;
+}
+nav {
+    background-color: #d67d2d;
+    height: 26px;
+    position: relative;
+    text-align: center;
+	top: -3px;
+    width: 100%;
+}
+nav ul li {
+    display: inline-block;
+    margin: 5px 0;
+}
+nav a, 
+nav a:visited {
+    color: white;
+    font-size: 1.1em;
+    padding: 5px;
+}
+#colors{
+	margin: 3% auto;
+	font-weight: 500;
+}
+p#description {
+    font-size: 1.4em;
+    margin: 0 auto;
+	margin-bottom: 1%;
+    text-align: left;
+    width: 80%;
+}
+p#title {
+    font-size: 2em;
+    margin: 0 auto;
+    padding: 2%;
+}
+#param{
+	font-size: 1.2em;
+	margin: 2% auto;
+	text-align: left;
+	width: 80%;
+}
+strong {
+    font-weight: 400;
+}
+.song_entry {
+    border: 0 none;
+    display: inline;
+    font-size: 1em;
+    margin: 5px 1px;
+    padding: 1%;
+    text-align: center;
+    width: 25%;
+}
+.song_entry_color {
+    border: 0 none;
+    font-size: 1em;
+    margin: 5px 0;
+    padding: 1%;
+    text-align: left;
+}
+.selection, .selection option {
+    font-size: 1em;
+    margin-bottom: 1px;
+    margin-top: 1px;
+    padding: 1px;
+    width: 75%;
+}
+.song_title {
+    border: 0 none;
+    display: inline;
+    font-size: 1em;
+    margin: 5px 1px;
+    padding: 1%;
+    text-align: center;
+    width: 75%;
+}
+strong{
+	font-weight: 900;
+}
+#column1 {
+    float: left;
+    width: 100%;
+}
+#column2 {
+    clear: left;
+    float: left;
+    margin-bottom: 20px;
+    width: 100%;
+}
+#img_uploads {
+    margin-bottom: 10px;
+}
+#lower_add_buttons {
+    margin-top: 20px;
+}
+#song_thumbs {
+    margin: 0 auto;
+    max-width: 95%;
+}
+#song_thumbs li {
+    float: left;
+    height: auto;
+    margin: 2.5%;
+    max-width: 45%;
+}
+#song_thumbs li a img {
+    max-width: 100%;
+}
+#song_thumbs li a #thumb {
+    background-color: rgba(50, 50, 50, 0.5);
+    top: -24px;
+    box-sizing: border-box;
+    color: white;
+    font-size: 1.1em;
+	font-weight: 900;
+    height: 25px;
+    left: 0;
+    max-width: 100%;
+	min-height: 20px;
+    padding: 5px;
+    position: relative;
+}
+img#preview {
+    max-width: 80%;
+}
+#uploads {
+    clear: both;
+    font-weight: bolder;
+    line-height: 2;
+    margin: 0 auto;
+    text-align: left;
+    width: 75%;
+}
+
+#weekly_text{
+	margin: 2.5%;
+	width: 90%;
+}

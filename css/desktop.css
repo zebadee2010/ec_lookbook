@@ -1,0 +1,38 @@
+
+@media screen and (min-width: 1025px) {
+	header {
+		height: 70px;
+	}
+	header img {
+		margin:0;
+		padding: 5 10 0 25;
+		text-align: left;
+	}
+	nav {
+		text-align: right;
+	}
+	nav a:hover {
+		color: #ddd;
+	}
+	#song_thumbs li {
+		float: left;
+		margin: 2%;
+		max-width: 21%;
+		min-width: 21%;
+	}
+	#song_thumbs li:nth-of-type(3n+1) {
+		clear: none;
+	}
+	#song_thumbs li:nth-of-type(4n+1) {
+		clear: both;
+	}
+	img#preview {
+		width: 40%;
+	}
+	#thumb {
+		bottom: 0;
+		left: 0;
+		position: absolute;
+		width: 100%;
+	}
+}
