@@ -1,8 +1,6 @@
 <?php
 try{
-	$db = new PDO("mysql:host=localhost;dbname=test;port=8889","mysql","God0fJ@cob");
-    $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);  
-    $db->exec("set NAMES 'utf8'");
+include("../inc/dbcon.php");
 }
 catch (Exception $e) {
     var_dump($e->getMessage());

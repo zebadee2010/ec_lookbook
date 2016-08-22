@@ -2,7 +2,7 @@
 
 //Create connection
 
-//    $db = new PDO("mysql:host=localhost;port=8889","root","bluemac24");
+//    $db = new PDO("mysql:host=localhost;port=8889","root","password");
 //    $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);  
 //    $db->exec("set NAMES 'utf8'");
 include("../inc/dbcon.php");
