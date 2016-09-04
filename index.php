@@ -1,5 +1,5 @@
 <?php 
-$title = "Looks DB:Elevation";
+$title = "Sandbox";
 include("inc/dbcon.php");
 include("doc/head.php");
 ?>
