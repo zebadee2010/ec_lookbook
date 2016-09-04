@@ -17,7 +17,7 @@
 <body>
 
 	<header>
-        <a href="../index.php"><img src="../images/ELEVATION-LogoK.png" alt="Elevation Church"></a>
+        <a href="../index.php"><img src="../images/hp_platform.png" alt="Sandbox"></a>
 	</header>
     
     <nav>	
